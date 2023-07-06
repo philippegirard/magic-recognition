@@ -1,7 +1,5 @@
 
-# Setup 
-
-Install Tesseract Engine
+# Install Tesseract Engine
 
 Mac
 ```
@@ -24,6 +22,22 @@ After installing Tesseract, you need to make sure it's in your system's PATH. Yo
 If Tesseract is not in your PATH after installation, you'll need to add it. The process for this varies depending on your operating system:
 ```
 
+# ensure tesseract is in the path
+
+Run this:
+```
+tesseract
+```
+
+if it does not work, add tesseract folder to the PATH
+
+# pip install
+
 ```
 pip install -r requirements.txt
+```
+# Run Main
+
+```
+python main.py
 ```
